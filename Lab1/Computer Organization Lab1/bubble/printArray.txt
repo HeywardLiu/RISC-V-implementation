@@ -1,0 +1,33 @@
+.data
+arraySize:	.word 10
+str1: .string "Array: "
+str2: .string "Sorted: "
+space: .string " "
+array:		.word	9,8,7,6,5,4,3,2,1,0
+.text
+main:
+	la			a2, array			#a1(x11) = &array[0]
+	lw			a3, arraySize  #a0(x10) = len(array)
+	li			t0, 0				#t0(i) = 0
+	jal		ra, printArray #jump to printArray, and then return ra(x1)
+
+	#terminate the program
+	li		a0, 10
+	ecall
+	
+printArray:
+	
+	slli		t2, t0, 2      #i = i*4
+	add		t4, a2, t2     #t4 = &array[0] + i*4
+
+	lw			a1, 0(t4)
+	li			a0, 1
+	ecall
+	
+	la			a1, space
+	li			a0, 4
+	ecall
+
+	addi 	t0, t0, 1			# i++
+	blt		t0, a3, printArray
+	jalr		x0, x1, 0

@@ -1,0 +1,22 @@
+.data
+argument:	.word 10
+str1: .string "Array: "
+str2: .string "Sorted: "
+array:		.word	1,2,3,4,5,6,7,8,9,10
+.text
+main:
+	la		x18, array   #x18 = &array[0]
+	addi x19, x0, 4 #x19 = idx
+	mv 	x10, x18
+	mv 	x11, x19
+	jal	x1, swap   #Argument
+	li		x1, 10
+	ecall
+swap:
+	slli x6, x11, 2
+	add 	x6, x10, x6
+	lw 	x5, 0(x6)
+	lw 	x7, 4(x6)
+	sw		x7, 0(x6)
+	sw		x5, 4(x6)
+	jalr	x0, x1, 0

@@ -1,0 +1,260 @@
+C:/Users/Heyward/Desktop/LAB5/Instr_Memory.v {1 {vlog -work work -stats=none {C:\Users\Heyward\Desktop\LAB5\Instr_Memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/testbench.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/ProgramCounter.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/ProgramCounter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/MUX_3to1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/MUX_3to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_3to1
+
+Top level modules:
+	MUX_3to1
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Adder.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/testbench.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/ProgramCounter.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/ProgramCounter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/MUX_3to1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/MUX_3to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_3to1
+
+Top level modules:
+	MUX_3to1
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Adder.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Instr_Memory.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Instr_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/forwarding.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/forwarding.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module forwarding_unit
+
+Top level modules:
+	forwarding_unit
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/ALU_Ctrl.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/ALU_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Decoder.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/ALU_Ctrl.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/ALU_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Decoder.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/MUX_2to1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/MUX_2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_2to1
+
+Top level modules:
+	MUX_2to1
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/MEM_WB.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/MEM_WB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/MEM_WB.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/MEM_WB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/MUX_2to1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/MUX_2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_2to1
+
+Top level modules:
+	MUX_2to1
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Shift_Left_1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Shift_Left_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shift_Left_1
+
+Top level modules:
+	Shift_Left_1
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Shift_Left_1.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Shift_Left_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shift_Left_1
+
+Top level modules:
+	Shift_Left_1
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/ID_EX.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/ID_EX.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/ID_EX.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/ID_EX.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/alu.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Data_Memory.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Data_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/alu.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Data_Memory.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Data_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/EX_MEM.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/EX_MEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/IF_ID.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/IF_ID.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/EX_MEM.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/EX_MEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/IF_ID.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/IF_ID.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Imm_Gen.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Imm_Gen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Imm_Gen
+
+Top level modules:
+	Imm_Gen
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Imm_Gen.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Imm_Gen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Imm_Gen
+
+Top level modules:
+	Imm_Gen
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Reg_File.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Reg_File.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/Users/Heyward/Desktop/lab5/Pipeline_CPU.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/lab5/Pipeline_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Simple_Single_CPU
+
+Top level modules:
+	Simple_Single_CPU
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Reg_File.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Reg_File.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/Users/Heyward/Desktop/LAB5/Pipeline_CPU.v {1 {vlog -work work -stats=none C:/Users/Heyward/Desktop/LAB5/Pipeline_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Pipeline_CPU
+
+Top level modules:
+	Pipeline_CPU
+
+} {} {}}
