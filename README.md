@@ -1,37 +1,19 @@
 # Computer Organization Lab
 ## See the requirements and details in each folder
 ## lab 0: Set up
-* Get familiar with assembly language 
+* Get familiar with RISC-V assembly
 * Set up develop environment
 ---
 ## lab 1: RISC-V assembly programming
 #### Translate the given C programs written in recursion into RISC-V assembly programs 
 * ```fib(n)```: return the $n 'th$ number of the [**fibonacci sequence**](https://en.wikipedia.org/wiki/Fibonacci_number)
-\begin{equation}
-  fib(n)=\begin{cases}
-    fib(n-1) + fib(n-2), & \text{$n$ $\ge$ $3$} 
-    \\ 2, & \text{$n = 2$}
-    \\ 1, & \text{$n = 1$}
-  \end{cases}
-\end{equation}
-
-
+![image](https://user-images.githubusercontent.com/54396044/158107247-a35ee0ab-1515-4540-b963-b022e30c0181.png)
 
 * ```fact(n)```: return the value of [**factorial number**](https://en.wikipedia.org/wiki/Factorial) $n!$
-\begin{equation}
-  fact(n)=\begin{cases}
-    n*fact(n-1), & \text{$n$ $\ge$ $1$} \\
-    1, & \text{$n = 0$}
-  \end{cases}
-\end{equation}
+![image](https://user-images.githubusercontent.com/54396044/158107971-4334bf22-7c9e-47f8-b0fd-1aa686502499.png)
 
 * ```gcd(m, n)```: return the [**great common divisor**](https://en.wikipedia.org/wiki/Greatest_common_divisor) of $m$ and $n$
-\begin{equation}
-  gcd(a, b)=\begin{cases}
-    a, & \text{$b = 0$} \\
-    gcd(b, \space a \space mod \space b), & \text{$n$ $\ge$ $1$}
-  \end{cases}
-\end{equation}
+![image](https://user-images.githubusercontent.com/54396044/158107363-ae5a4e9d-712f-41d8-9512-eb137554ede5.png)
 ---
 ## lab 2: ALU implementation
 #### Implement 32-bit Arithmetic Logic Unit including the following operation:
